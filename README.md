@@ -1,0 +1,1 @@
+Tasks for the course "Kurs zawodowy technik programista (INF.03)".
