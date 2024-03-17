@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+
+span,
+.material-icons {
+    margin-right: 4px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 25px;
+}
+
+h2 {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+p {
+    margin: 6px;
+}
+
+pre {
+    padding: 10px;
+}
+
+.name {
+    margin-top: 60px;
+}
+
+.normal-list {
+    list-style: disc;
+}
+
+.github-footer-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.contacts {
+    padding-top: 20px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1024px;
+    background-color: azure;
+    box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+    border: solid 6px pink;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.introdaction {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 10px;
+    width: 100%;
+}
+
+.margin-x-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top-auto {
+    margin-top: auto;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
+.code {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.my-github {
+    display: flex;
+    width: 36px;
+    height: 36px;
+}
+
+
+.representation {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#avatar {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 50%;
+}
